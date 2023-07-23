@@ -1,0 +1,30 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(3,87,0);
+    background: linear-gradient(170deg, rgba(3,87,0,1) 0%, rgba(0,184,9,1) 100%);
+}
+
+#tasks-card {
+    width: 90%;
+}
+
+#card-body {
+    max-height: 180px;
+    overflow-y: scroll;
+}
+
+.v-card-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+@media screen and (min-width: 1008px) {
+    #tasks-card {
+        width: 800px;
+    }
+}
